@@ -8,12 +8,7 @@ public class NewBehaviourScript : MonoBehaviour
 
     [SerializeField] private GameObject painelMenuInicial;
     [SerializeField] private GameObject painelOpcoes;
-    public void NewGame()
-    {
-
-    }
-
-    public void LoadGame()
+    public void Play()
     {
 
     }
