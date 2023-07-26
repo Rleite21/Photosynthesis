@@ -12,7 +12,6 @@ public class NewBehaviourScript : MonoBehaviour
     [SerializeField] private GameObject painelOpcoes;
     public void NewGame()
     {
-        painelMenuInicial.SetActive(false);
         SceneManager.LoadScene(newgame);
     }
 
@@ -28,6 +27,8 @@ public class NewBehaviourScript : MonoBehaviour
         painelMenuInicial.SetActive(true);
         painelOpcoes.SetActive(false);
     }
+
+  
 
     public void Exit()
     {
